@@ -1,4 +1,6 @@
-.nav {
+/*---Menu Outline---*/
+.menu-wrap {
+	display: block;
 	color:blue;
 	font-size: 11px;
 	font-weight: bold;
@@ -7,11 +9,30 @@
 	padding-left: 10px;
 	padding-right: 10px;
 	text-transform:uppercase;
+	height: 50px;
 }
+
+.menu-wrap li {
+	display: inline;
+}
+
+.menu-wrap .menu {
+	position: relative;
+}
+
+.left-side {
+	float: left;
+}
+
+.right-side {
+	float: right;
+}
+
 .title {
 	height: 350px;
 	background-color: #cccccc;
 	background-image: url('https://goo.gl/ODpi3y');
+	background-image: url('/images/toyota-ae86.jpg');
 }
 .title h1 {
 	text-align:center;
@@ -28,6 +49,7 @@
 	-1px 1px 0 #000,
 	1px 1px 0 #000;  
 }
+
 .title p {
 	color:white;
 	text-align:center;
@@ -50,5 +72,5 @@
 }
 
 .welcome a {
-    color:#00b0ff;
+	color:#00b0ff;
 }
