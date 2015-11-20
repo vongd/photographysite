@@ -4,12 +4,9 @@
 	color:blue;
 	font-size: 11px;
 	font-weight: bold;
-	padding-top: 14px;
-	padding-bottom: 14px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: 14px 10px;
 	text-transform:uppercase;
-	height: 50px;
+	height: 40px;
 }
 
 .menu-wrap li {
@@ -29,10 +26,10 @@
 }
 
 .title {
-	height: 350px;
-	background-color: #cccccc;
-	background-image: url('https://goo.gl/ODpi3y');
+	height: 400px;
 	background-image: url('/images/toyota-ae86.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .title h1 {
 	text-align:center;
@@ -41,8 +38,8 @@
 	margin:0 auto;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 48px;
-	padding:125px;
-	border:1px solid #ffffff;
+	padding: 150px;
+	border: 1px solid #ffffff;
 	text-shadow:
 	-1px -1px 0 #000,
 	1px -1px 0 #000,
