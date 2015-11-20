@@ -1,0 +1,16 @@
+Library/*
+db/*
+logs/*
+temp/*
+*.rtf
+.DS_Store
+MAMP.app/
+Sequel Pro.app/
+bin/
+cgi-bin/
+conf/
+fcgi-bin/
+licences/
+tmp/
+
+

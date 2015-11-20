@@ -1,0 +1,21 @@
+.nav {
+	color:blue;
+}
+.title {
+	background-color: #cccccc;
+	background-image: url('https://goo.gl/ODpi3y');
+}
+.title h1 {
+	text-align:center;
+	color:white;
+	margin:0 auto;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 48px;
+	padding:125px;
+	border:1px solid #ffffff;
+}
+.title p {
+	color:white;
+	margin-left: auto;
+	margin-right: auto;
+}
