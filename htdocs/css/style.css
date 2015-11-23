@@ -1,6 +1,5 @@
 /*---Menu Outline---*/
 .menu-wrap {
-	display: block;
 	color:blue;
 	font-size: 11px;
 	font-weight: bold;
@@ -15,6 +14,7 @@
 
 .menu-wrap .menu {
 	position: relative;
+	word-spacing: 2em;
 }
 
 .left-side {
@@ -58,16 +58,31 @@
 	1px 1px 0 #000;  
 }
 
-.welcome {
+.description {
+	background-color: #efefef;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.description h2 {
+	color: #393c3d;
+	font-size: 24px;
+}
+
+.description p {
+	font-size: 15px;
+	margin-bottom: 13px;
+}
+
+.learn-more {
 	backgound-color: #f7f7f7;
 }
 
-.welcome h3{
+.learn-more h3{
 	font-family:'Shift', sans-serif;
 	font-size: 18px;
 	font-weight: bold;
 }
 
-.welcome a {
+.learn-more a {
 	color:#00b0ff;
 }
